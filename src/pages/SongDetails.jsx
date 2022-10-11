@@ -39,7 +39,7 @@ const SongDetails = () => {
           }
         </div>
       </div>
-      <RelatedSongs songData={relatedSongData} isPlaying={isPlaying} activeSong={activeSong} handlePauseClick={handlePauseClick} handlePlayClick={handlePlayClick} artistId={artistId} />
+      <RelatedSongs songData={relatedSongData} isPlaying={isPlaying} activeSong={activeSong} handlePauseClick={handlePauseClick} handlePlayClick={handlePlayClick} />
     </div>
   )
 }
